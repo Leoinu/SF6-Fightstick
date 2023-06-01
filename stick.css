@@ -85,7 +85,6 @@
     background: url(ppressed.png) center no-repeat;
 }
 
-/* 
 .custom .bumper.left {
     position: absolute;
     float: right;
@@ -96,21 +95,8 @@
 .custom .bumper.right {
     position: absolute;
     float: right;
-    bottom: 113px;
+    bottom: 82px;
     right: 243px;
-}
-
-*/
-
-.custom .bumper.left {
-    position: absolute;
-    float: right;
-    bottom: 4px;
-    right: 11px;
-}
-
-.custom .bumper.right {
-    float: left;
 }
 
 
