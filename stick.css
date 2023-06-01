@@ -76,7 +76,7 @@
     opacity: 1;
     display: block;
 }
-
+/*
 .custom .bumper.left.pressed{
     background: url(ppressed.png) center no-repeat;
 }
@@ -84,6 +84,8 @@
 .custom .bumper.right.pressed{
     background: url(ppressed.png) center no-repeat;
 }
+
+*/
 
 
 .custom .bumper.left {
