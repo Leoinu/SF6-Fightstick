@@ -56,8 +56,8 @@
 .custom .trigger-button.right {
     float: left;
     position: fixed;
-    bottom: 179px;
-    right: 387px;
+    bottom: 178px;
+    right: 243px;
 }
 
 .custom .bumpers {
@@ -68,7 +68,7 @@
     top: 88px;
 }  
 
-.custom .bumper {
+.custom .bumper-button.left {
     width: 123px;
     height: 123px;
     /* background: #333333; */
@@ -77,13 +77,15 @@
     display: block;
 }
 
-.custom .bumper-button.right{
+.custom .bumper-button.right {
     width: 123px;
     height: 123px;
     /* background: #333333; */
     border-radius: 100%;
     opacity: 1;
     display: block;
+}
+
 }
 
 .custom .bumper-button.right.pressed{
@@ -99,16 +101,6 @@
 */
 
 
- .custom .bumper.left {
-    position: absolute;
-    float: right;
-    bottom: 4px;
-    right: 11px;
-}
-
-.custom .bumper.right {
-    float: left;
-}
 
 .custom .quadrant {
     position: absolute;
@@ -228,7 +220,7 @@
 }
 
 .custom .b.pressed{
-    background: url(kpressedpng) center no-repeat;
+    background: url(kpressed.png) center no-repeat;
 }
 
 .custom .x.pressed{
@@ -251,8 +243,8 @@
 }
 
 .custom .x {
-    top: 95px;
-    left: -2px;
+    top: 93px;
+    left: 1px;
 }
 
 .custom .y {
