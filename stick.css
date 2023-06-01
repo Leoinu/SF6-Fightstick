@@ -78,21 +78,17 @@
 }
 
 .custom .bumper.left {
-    width: 123px;
-    height: 123px;
-    /* background: #333333; */
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
+    position: absolute;
+    float: right;
+    bottom: 113px;
+    right: 243px;
 }
 
 .custom .bumper.right {
-    width: 123px;
-    height: 123px;
-    /* background: #333333; */
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
+    position: absolute;
+    float: right;
+    bottom: 113px;
+    right: 243px;
 }
 
 }
