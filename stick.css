@@ -68,6 +68,15 @@
     top: 88px;
 }  
 
+.custom .bumper-button {
+    width: 123px;
+    height: 123px;
+    /* background: #333333; */
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
 .custom .bumper-button.left {
     width: 123px;
     height: 123px;
@@ -238,8 +247,8 @@
 }
 
 .custom .b {
-    bottom: 228px;
-    right: -95px;
+    bottom: 75px;
+    right: 48px;
 }
 
 .custom .x {
