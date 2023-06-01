@@ -68,7 +68,7 @@
     top: 88px;
 }  
 
-.custom .bumper-button {
+.custom .bumper {
     width: 123px;
     height: 123px;
     /* background: #333333; */
@@ -77,7 +77,7 @@
     display: block;
 }
 
-.custom .bumper-button.left {
+.custom .bumper.left {
     width: 123px;
     height: 123px;
     /* background: #333333; */
@@ -86,7 +86,7 @@
     display: block;
 }
 
-.custom .bumper-button.right {
+.custom .bumper.right {
     width: 123px;
     height: 123px;
     /* background: #333333; */
@@ -97,7 +97,7 @@
 
 }
 
-.custom .bumper-button.right.pressed{
+.custom .bumper.right.pressed{
     background: url(ppressed.png) center no-repeat;
 }
 
