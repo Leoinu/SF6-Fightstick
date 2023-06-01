@@ -1,0 +1,268 @@
+
+.controller.custom {
+    background: url(SF6Base.png) center no-repeat;
+    height: 534px;
+    width: 1122px;
+}
+
+.custom.disconnected {
+    background: url(https://gamepadviewer.com/stick-assets/disconnected.svg) no-repeat;
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 326px;
+    height: 198px;
+    position: absolute;
+    right: 0px;
+    bottom: 66px;
+}
+
+.custom .trigger-button {
+    width: 123px;
+    height: 123px;
+    /* background: #333333; */
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+/*
+.custom .trigger-button.left.pressed{
+    background: url(ppressed.png) center no-repeat;
+}
+*/ 
+.custom .trigger-button.right.pressed{
+    background: url(kpressed.png) center no-repeat;
+}
+    
+    
+
+/* .custom .trigger-button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+*/
+
+.custom .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 113px;
+    right: 243px;
+}
+
+.custom .trigger-button.right {
+    float: left;
+    position: fixed;
+    bottom: 179px;
+    right: 387px;
+}
+
+.custom .bumpers {
+    width: 295px;
+    height: 198px;
+    position: absolute;
+    right: 0px;
+    top: 88px;
+}  
+
+.custom .bumper {
+    width: 123px;
+    height: 123px;
+    /* background: #333333; */
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .bumper-button.right{
+    width: 123px;
+    height: 123px;
+    /* background: #333333; */
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .bumper-button.right.pressed{
+    background: url(ppressed.png) center no-repeat;
+}
+
+
+/* 
+.custom .bumper.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+*/
+
+
+ .custom .bumper.left {
+    position: absolute;
+    float: right;
+    bottom: 4px;
+    right: 11px;
+}
+
+.custom .bumper.right {
+    float: left;
+}
+
+.custom .quadrant {
+    position: absolute;
+    font-family: "Press Start 2P";
+    font-size: 28px;
+    font-weight: normal;
+    top: 20px;
+    left: 236px;
+    color: white;
+}
+
+.custom .p0:after {
+    content: "";
+}
+
+.custom .p1:after {
+    content: "Player 2";
+}
+
+.custom .p2:after {
+    content: "Player 3";
+}
+
+.custom .p3:after {
+    content: "Player 4";
+}
+
+.custom .arrows {
+    position: absolute;
+    width: 70px;
+    height: 217px;
+    top: 53px;
+    left: 49px;
+}
+
+.custom .back, .custom .start {
+    width: 70px;
+    height: 70px;
+    /* background: #333333; */
+    display: block;
+    border-radius: 100%;
+}
+
+.custom .back {
+    float: left;
+}
+
+.custom .start {
+    position: absolute;
+    bottom: 4px;
+    left: -1px;
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 310px;
+    height: 370px;
+    bottom: 103px;
+    left: 472px;
+}
+.custom .fstick.up {
+    background-position-x: -1762px;
+    background: url(StickImages/Top.png) center no-repeat;
+}
+
+.custom .fstick.down {
+    background-position-x: -882px;
+    background: url(StickImages/Bottom.png) center no-repeat;
+}
+
+.custom .fstick.left {
+    background-position-x: -1322px;
+    background: url(StickImages/Left.png) center no-repeat;
+}
+
+.custom .fstick.right {
+    background-position-x: -442px;
+    background: url(StickImages/Right.png) center no-repeat;
+}
+
+ 
+.custom .fstick.up.right {
+    background-position-x: -222px;
+    background: url(StickImages/TopRight.png) center no-repeat;
+}
+
+.custom .fstick.up.left {
+    background-position-x: -1542px;
+    background: url(StickImages/TopLeft.png) center no-repeat;
+}
+
+.custom .fstick.down.right {
+    background-position-x: -662px;
+    background: url(StickImages/BottomRight.png) center no-repeat;
+}
+
+.custom .fstick.down.left {
+    background-position-x: -1102px;
+    background: url(StickImages/BottomLeft.png) center no-repeat;
+}
+
+
+.custom .button {
+    width: 119px;
+    height: 119px;
+    /*! background: #333333; */
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+}
+
+.custom .a.pressed{
+    background: url(ppressed.png) center no-repeat;
+}
+
+.custom .b.pressed{
+    background: url(kpressedpng) center no-repeat;
+}
+
+.custom .x.pressed{
+    background: url(ppressed.png) center no-repeat;
+}
+
+.custom .y.pressed{
+    background: url(ppressed.png) center no-repeat; 
+  
+}
+
+.custom .a {
+    bottom: 15px;
+    right: 193px;
+}
+
+.custom .b {
+    bottom: 228px;
+    right: -95px;
+}
+
+.custom .x {
+    top: 95px;
+    left: -2px;
+}
+
+.custom .y {
+    right: 49px;
+    top: 23px;
+}
+
+.custom .fstick {
+    position: absolute;
+    width: 221px;
+    height: 221px;
+    top: 190px;
+    left: 226px;
+    background: url(StickImages/Center.png) center no-repeat;
+}
