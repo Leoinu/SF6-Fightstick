@@ -77,6 +77,14 @@
     display: block;
 }
 
+.custom .bumper.right.pressed{
+    background: url(ppressed.png) center no-repeat;
+}
+
+.custom .bumper.left.pressed{
+    background: url(ppressed.png) center no-repeat;
+}
+
 .custom .bumper.left {
     position: absolute;
     float: right;
@@ -91,11 +99,6 @@
     right: 243px;
 }
 
-}
-
-.custom .bumper.right.pressed{
-    background: url(ppressed.png) center no-repeat;
-}
 
 
 /* 
